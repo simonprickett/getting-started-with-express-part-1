@@ -6,9 +6,9 @@ This is the demo application that accompanies my "Getting Started with Express (
 
 To follow along with the video, you'll need:
 
-* Node.js (I used version 14 which was the current long term stable at time of writing).
+* [Node.js](https://nodejs.org/) (I used version 14 which was the current long term stable at time of writing).
 * The `npm` command (installs with Node.js).
-* Postman (to compose and send HTTP requests, particularly `POST` requests that you won't be able to do in a browser easily).
+* [Postman](https://www.postman.com/) (to compose and send HTTP requests, particularly `POST` requests that you won't be able to do in a browser easily).
 
 ## Installation / Setup:
 
