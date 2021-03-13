@@ -52,13 +52,13 @@ The server has the following endpoints for basic database operations...
 
 Let's see what's stored in the `favoriteColor` key:
 
-Request:
+**Request:**
 
 ```
 GET http://localhost:3000/get/favoriteColor
 ```
 
-Response (Key Exists):
+**Response (Key Exists):**
 
 ```json
 {
@@ -66,7 +66,7 @@ Response (Key Exists):
 }
 ```
 
-Response (Key Doesn't Exist):
+**Response (Key Doesn't Exist):**
 
 ```json
 {}
@@ -76,7 +76,7 @@ Note: key names are case sensitive, so `favoriteColor` and `favoritecolor` are t
 
 ### Set the Value of a Given Key
 
-Request: 
+**Request:**
 
 Let's set the value stored at key `favoriteColor` to `red`.
 
@@ -84,7 +84,7 @@ Let's set the value stored at key `favoriteColor` to `red`.
 POST http://localhost:3000/set
 ```
 
-JSON Encoded Body:
+JSON Encoded Request Body:
 
 ```json
 {
@@ -93,7 +93,7 @@ JSON Encoded Body:
 }
 ```
 
-Response:
+**Response:**
 
 ```json
 {
@@ -109,13 +109,13 @@ Note: key names are case sensitive, so `favoriteColor` and `favoritecolor` are t
 
 We can get basic, or detailed database information.  Basic information consists of the size of the database (the number of keys it is holding).  Detailed information adds an array of key names that currently hold values.
 
-Request (basic):
+**Request (basic):**
 
 ```
 GET http://localhost:3000/dbinfo
 ```
 
-Response (basic):
+**Response (basic):**
 
 ```json
 {
@@ -123,13 +123,13 @@ Response (basic):
 }
 ```
 
-Request (detailed):
+**Request (detailed):**
 
 ```
 GET http://localhost:3000/dbinfo?details=true
 ```
 
-Response (detailed):
+**Response (detailed):**
 
 ```json
 {
