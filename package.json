@@ -4,9 +4,7 @@
   "description": "Accompanies my video.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "./node_modules/nodemon/bin/nodemon.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "./node_modules/nodemon/bin/nodemon.js"
   },
   "author": "Simon Prickett",
   "license": "MIT",
