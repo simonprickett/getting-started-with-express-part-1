@@ -25,7 +25,9 @@ app.get('/dbinfo', (req, res) => {
 
 app.post('/set', (req, res) => {
     db[req.body.key] = req.body.value;
-    res.status(201).send('OK');
+    res.status(201).json({ 
+        status: 'OK' 
+    });
 });
 
 app.get('/', (req, res) => {
