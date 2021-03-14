@@ -1,6 +1,6 @@
 # Getting Started with Express (Part 1)
 
-This is the demo application that accompanies my "Getting Started with Express (Part 1)" video.  It uses the [Express framework](http://expressjs.com/) to model a very basic in memory key/value store database that has no persistence.
+This is the demo application that accompanies my ["Getting Started with Express (Part 1)" video](https://www.youtube.com/watch?v=Z04bkB7g36E).  It uses the [Express framework](http://expressjs.com/) to model a very basic in memory key/value store database that has no persistence.
 
 ## Requirements
 
